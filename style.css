@@ -1,0 +1,72 @@
+*{
+    font-family: "Imbue",sans-serif;
+    color:rgb(31, 10, 02); 
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+header{
+    
+    background-color: rgb(41,20,101);
+    padding: 2rem 1rem;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+}
+#inicio{
+    width: 420px;
+    margin: 0 auto;
+}
+section article{
+    transition: box-shadow 0.3s ease;
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 0,5rem;
+    padding: 0,25rem 0;
+    cursor: pointer;
+}
+section article h2,section article p,section article li{
+    margin: 1rem;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,30%);
+}
+.textos{
+    background-color: white;
+    margin:1rem 0;
+    border-radius: 0.5rem;
+
+}
+.titulos{
+    text-align: center;
+    font-family:"Six caps",sans-serif ;
+}
+p,li{
+   color:rgb(10, 10, 99);
+}
+footer {
+    background-color: rgb(41,20,101);
+    padding: 3rem;
+   
+}
+#primero{
+    color: white;
+    float: right;
+    text-decoration: none;
+}
+#segundo{
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+.ojitosLindos:hover{
+    color: rgb(41,20,101);
+}
+.ojitosLindos:visited{
+    color: rgb(21,0,97);
+}
+.ojitosLindos:active{
+    color: rgb(31, 10, 02);
+}
